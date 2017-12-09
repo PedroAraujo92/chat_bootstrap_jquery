@@ -1,0 +1,19 @@
+/*.row {
+	height: 100%;
+	display: table-row;
+}
+
+.row .no-float {
+	display: table-cell;
+	float: none;
+}*/
+
+body{
+	background: url("/assets/images/main-logo.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+html, body {
+  height: 100%;
+}
