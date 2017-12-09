@@ -1,19 +1,23 @@
-/*.row {
-	height: 100%;
-	display: table-row;
-}
-
-.row .no-float {
-	display: table-cell;
-	float: none;
-}*/
-
 body{
 	background: url("/assets/images/main-logo.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
 
-html, body {
+html, body{
   height: 100%;
+}
+
+#components{
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  z-index: 15;
+  top: 30%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}
+
+#desconect, #clean{
+	width: 300px;
 }
